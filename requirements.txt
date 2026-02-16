@@ -1,0 +1,8 @@
+numba==0.60.0
+numpy==2.4.2
+pandas==3.0.0
+scikit_learn==1.8.0
+scipy==1.17.0
+torch==2.4.0
+torch_scatter==2.1.2+pt24cu121
+transformers==4.57.1
