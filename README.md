@@ -10,24 +10,19 @@ TGPM shifts temporal graph modeling from task-centric, node-level heuristics to 
 
 The overall framework is featured by:
 
-- **Pattern-centric temporal modeling**  
-  Learn evolving interaction semantics instead of node-centric temporal embeddings.
+- **Pattern-centric temporal modeling**: Learn evolving interaction semantics instead of node-centric temporal embeddings.
 
-- **Interaction patches via temporally biased random walks**  
-  Capture long-range dependencies and dynamic structural semantics beyond immediate neighborhoods.
+- **Interaction patches via temporally biased random walks**: Capture long-range dependencies and dynamic structural semantics beyond immediate neighborhoods.
 
-- **Transformer-based backbone**  
-  Model global temporal regularities and context-dependent evolution.
+- **Transformer-based backbone**: Model global temporal regularities and context-dependent evolution.
 
-- **Self-supervised pre-training**  
+- **Self-supervised pre-training**:
   - Masked Token Modeling (MTM) for multi-scale temporal dependency learning  
   - Next Time Prediction (NTP) for explicit prospective temporal modeling
 
-- **Strong transferability**  
-  Consistently outperforms prior methods in both in-domain and cross-domain temporal link prediction.
+- **Strong transferability**: Consistently outperforms prior methods in both in-domain and cross-domain temporal link prediction.
 
-- **Strong Scalability**
-  Continued performance improvement up to 160M parameter.
+- **Strong Scalability**: Continued performance improvement up to 160M parameter.
 
 <p align="center">
   <img src="assets/framework.png" width="90%">
